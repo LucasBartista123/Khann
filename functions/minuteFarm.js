@@ -18,7 +18,7 @@ window.fetch = async function (input, init = {}) {
             }
 
             // 🎲 Tempo aleatório entre 5 e 10 minutos (em segundos)
-            const randomMinutes = Math.floor(Math.random() * (10 - 5 + 1)) + 5;
+            const randomMinutes = Math.floor(Math.random() * (15 - 10 + 5)) + 10;
             const randomSeconds = randomMinutes * 60;
 
             // Substitui ou injeta o tempo dentro do body
